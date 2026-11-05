@@ -1,0 +1,4 @@
+seq,time,type,symbol,qty,price,amount,cash_after,trade_id,note
+1,2026-11-05T06:50:59Z,DEPOSIT,,0,0,10000,10000.0,,Starting paper balance
+2,2026-11-05T06:50:59Z,BUY,SOXSB,15.79,63.301635,-999.53281665,9000.46718335,T00001,"score 89.1 (tech 80.9, news +5.2, macro +3.0); RSI 69.5, ADX 25.0"
+3,2026-11-05T06:50:59Z,FEE,SOXSB,0,0,-0.99953282,8999.46765053,T00001,Entry fee

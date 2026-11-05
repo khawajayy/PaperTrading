@@ -1,0 +1,44 @@
+{
+ "cash": 8999.46765053,
+ "positions": {
+  "SOXSB": {
+   "trade_id": "T00001",
+   "qty": 15.79,
+   "entry_price": 63.301635,
+   "entry_time": 1793861459.702894,
+   "initial_stop": 58.050666102678306,
+   "stop": 58.050666102678306,
+   "atr": 2.100387558928676,
+   "high_water": 63.301635,
+   "entry_fee": 0.9995328166499999,
+   "entry_score": 89.1,
+   "last_price": 63.24,
+   "last_checked_bar": 1793861700000
+  }
+ },
+ "ledger_seq": 3,
+ "trade_seq": 1,
+ "peak_equity": 10000,
+ "day": {
+  "date": "2026-11-05",
+  "start_equity": 10000.0
+ },
+ "cooldown_until": {},
+ "last_signal_bar": {
+  "SOXSB": 1793854800000
+ },
+ "started_at": "2026-11-05T06:50:59Z",
+ "benchmark_start": {
+  "SOXLB": 61.46,
+  "SOXSB": 63.27,
+  "SNXXB": 5.18,
+  "SNDKB": 1014.39,
+  "MVLLB": 10.95,
+  "MUUB": 18.34,
+  "KORUB": 9.39,
+  "INTCB": 56.8,
+  "XAUT": 4111.86,
+  "PAXG": 4122.14
+ },
+ "last_equity": 9998.02725053
+}
