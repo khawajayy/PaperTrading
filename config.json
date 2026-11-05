@@ -1,0 +1,107 @@
+{
+  "account": {
+    "starting_cash": 10000,
+    "fee_pct": 0.1,
+    "quote": "USDT"
+  },
+  "risk": {
+    "risk_per_trade_pct": 1.0,
+    "atr_stop_mult": 2.5,
+    "atr_trail_mult": 3.0,
+    "trail_after_r": 1.0,
+    "max_positions": 4,
+    "max_gross_exposure_pct": 80,
+    "drawdown_half_risk_pct": 10,
+    "daily_loss_halt_pct": 3,
+    "cooldown_hours_after_loss": 6,
+    "min_hold_hours_for_signal_exit": 2,
+    "max_hold_days_leveraged": 7,
+    "max_pct_of_24h_volume": 1.0
+  },
+  "signals": {
+    "entry_score": 55,
+    "exit_score": -15,
+    "max_extension_atr": 3.5,
+    "max_news_adjust": 15,
+    "max_macro_adjust": 15
+  },
+  "gates": {
+    "max_spread_pct": 0.35,
+    "min_24h_quote_volume": 250000,
+    "max_premium_pct": 1.5,
+    "vix_halt_level": 35,
+    "macro_blackout_minutes_before": 60,
+    "macro_blackout_minutes_after": 30,
+    "earnings_no_entry_hours": 48,
+    "earnings_flatten_hours": 24,
+    "equity_tokens_trade_weekends": false
+  },
+  "groups": {
+    "semis_long": { "max_exposure_pct": 40, "conflicts_with": ["semis_short"] },
+    "semis_short": { "max_exposure_pct": 15, "conflicts_with": ["semis_long"] },
+    "korea": { "max_exposure_pct": 15, "conflicts_with": [] },
+    "gold": { "max_exposure_pct": 30, "max_positions": 1, "conflicts_with": [] }
+  },
+  "assets": {
+    "SOXLB": {
+      "name": "Direxion Semiconductor Bull 3X", "pair": "SOXLBUSDT", "underlying": "SOXL", "earnings_of": null,
+      "class": "equity", "leverage": 3, "group": "semis_long", "max_position_pct": 10, "slippage_pct": 0.05,
+      "macro": "semis_long", "topics": { "semis": 1 }, "news_sign": 1
+    },
+    "SOXSB": {
+      "name": "Direxion Semiconductor Bear 3X", "pair": "SOXSBUSDT", "underlying": "SOXS", "earnings_of": null,
+      "class": "equity", "leverage": 3, "group": "semis_short", "max_position_pct": 10, "slippage_pct": 0.05,
+      "macro": "semis_short", "topics": { "semis": 1 }, "news_sign": -1
+    },
+    "SNXXB": {
+      "name": "Tradr 2X Long Sandisk", "pair": "SNXXBUSDT", "underlying": "SNXX", "earnings_of": "SNDK",
+      "class": "equity", "leverage": 2, "group": "semis_long", "max_position_pct": 12, "slippage_pct": 0.1,
+      "macro": "semis_long", "topics": { "sandisk": 1, "semis": 0.4 }, "news_sign": 1
+    },
+    "SNDKB": {
+      "name": "Sandisk", "pair": "SNDKBUSDT", "underlying": "SNDK", "earnings_of": "SNDK",
+      "class": "equity", "leverage": 1, "group": "semis_long", "max_position_pct": 20, "slippage_pct": 0.05,
+      "macro": "semis_long", "topics": { "sandisk": 1, "semis": 0.4 }, "news_sign": 1
+    },
+    "MVLLB": {
+      "name": "GraniteShares 2X Long Marvell", "pair": "MVLLBUSDT", "underlying": "MVLL", "earnings_of": "MRVL",
+      "class": "equity", "leverage": 2, "group": "semis_long", "max_position_pct": 12, "slippage_pct": 0.1,
+      "macro": "semis_long", "topics": { "marvell": 1, "semis": 0.4 }, "news_sign": 1
+    },
+    "MUUB": {
+      "name": "Direxion Micron Bull 2X", "pair": "MUUBUSDT", "underlying": "MUU", "earnings_of": "MU",
+      "class": "equity", "leverage": 2, "group": "semis_long", "max_position_pct": 12, "slippage_pct": 0.1,
+      "macro": "semis_long", "topics": { "micron": 1, "semis": 0.4 }, "news_sign": 1
+    },
+    "KORUB": {
+      "name": "Direxion South Korea Bull 3X", "pair": "KORUBUSDT", "underlying": "KORU", "earnings_of": null,
+      "class": "equity", "leverage": 3, "group": "korea", "max_position_pct": 10, "slippage_pct": 0.08,
+      "macro": "semis_long", "topics": { "korea": 1, "semis": 0.3 }, "news_sign": 1
+    },
+    "INTCB": {
+      "name": "Intel", "pair": "INTCBUSDT", "underlying": "INTC", "earnings_of": "INTC",
+      "class": "equity", "leverage": 1, "group": "semis_long", "max_position_pct": 20, "slippage_pct": 0.05,
+      "macro": "semis_long", "topics": { "intel": 1, "semis": 0.4 }, "news_sign": 1
+    },
+    "XAUT": {
+      "name": "Tether Gold", "pair": "XAUTUSDT", "underlying": null, "earnings_of": null,
+      "class": "gold", "leverage": 1, "group": "gold", "max_position_pct": 30, "slippage_pct": 0.02,
+      "macro": "gold", "topics": { "gold": 1 }, "news_sign": 1
+    },
+    "PAXG": {
+      "name": "Paxos Gold", "pair": "PAXGUSDT", "underlying": null, "earnings_of": null,
+      "class": "gold", "leverage": 1, "group": "gold", "max_position_pct": 30, "slippage_pct": 0.02,
+      "macro": "gold", "topics": { "gold": 1 }, "news_sign": 1
+    }
+  },
+  "news_topics": {
+    "semis": { "queries": ["semiconductor stocks", "chip stocks export controls"], "tickers": ["SMH", "SOXX"], "match": ["chip", "semiconductor", "soxx", "smh", "nvidia", "tsmc", "broadcom"] },
+    "sandisk": { "queries": ["Sandisk stock", "NAND flash prices"], "tickers": ["SNDK"], "match": ["sandisk", "sndk", "nand"] },
+    "marvell": { "queries": ["Marvell Technology stock"], "tickers": ["MRVL"], "match": ["marvell", "mrvl"] },
+    "micron": { "queries": ["Micron stock", "DRAM prices"], "tickers": ["MU"], "match": ["micron", "dram", "hbm"] },
+    "intel": { "queries": ["Intel stock"], "tickers": ["INTC"], "match": ["intel", "intc"] },
+    "korea": { "queries": ["KOSPI South Korea stocks", "Samsung SK Hynix shares"], "tickers": ["EWY"], "match": ["kospi", "korea", "samsung", "hynix", "won"] },
+    "gold": { "queries": ["gold price", "Federal Reserve interest rates gold"], "tickers": ["GLD"], "match": ["gold", "bullion", "xau"] }
+  },
+  "macro_symbols": { "vix": "^VIX", "dxy": "DX-Y.NYB", "us10y": "^TNX", "smh": "SMH" }
+}

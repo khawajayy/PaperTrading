@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paper Trading Record</title>
+<meta name="description" content="Live record, ledger and signals for a paper trading bot. No real money.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div>
+    <h1>Paper Trading Record</h1>
+    <p class="sub">Simulated fills at live Binance prices. No real money, and nothing here is financial advice.</p>
+  </div>
+  <p class="updated" id="updated">Loading…</p>
+</header>
+<div id="alert" class="alert" role="status" hidden></div>
+<nav class="tabs" aria-label="Sections">
+  <a href="#overview">Overview</a>
+  <a href="#signals">Signals</a>
+  <a href="#events">News &amp; events</a>
+  <a href="#trades">Trades</a>
+  <a href="#ledger">Ledger</a>
+  <a href="#health">Data health</a>
+</nav>
+<main>
+  <section id="overview" aria-label="Overview">
+    <div class="tiles" id="tiles"></div>
+    <div class="card">
+      <h2>Account value</h2>
+      <p class="hint">Compared with holding all ten tokens in equal amounts from the first run.</p>
+      <div id="equity-legend" class="legend"></div>
+      <div id="equity-chart" class="chart"></div>
+    </div>
+    <div class="card">
+      <h2>Drawdown from peak</h2>
+      <div id="dd-chart" class="chart"></div>
+    </div>
+    <div class="card">
+      <h2>Open positions</h2>
+      <div id="positions"></div>
+    </div>
+  </section>
+
+  <section id="signals" class="card" aria-label="Signals">
+    <h2>Signals, strongest first</h2>
+    <p class="hint" id="signal-hint"></p>
+    <div id="signal-table"></div>
+  </section>
+
+  <section id="events" aria-label="News and events">
+    <div class="grid2">
+      <div class="card"><h2>Macro readings</h2><div id="macro"></div></div>
+      <div class="card"><h2>Upcoming events</h2><div id="calendar"></div></div>
+    </div>
+    <div class="card"><h2>News by topic</h2><p class="hint">Scored from headline wording over the last 48 hours, with newer stories counting more.</p><div id="news" class="news"></div></div>
+  </section>
+
+  <section id="trades" class="card" aria-label="Trades">
+    <h2>Closed trades</h2>
+    <div id="trade-stats" class="mini"></div>
+    <div id="per-symbol"></div>
+    <div id="trade-table"></div>
+    <p class="dl"><a href="data/trades.csv" download>Download all trades (CSV)</a></p>
+  </section>
+
+  <section id="ledger" class="card" aria-label="Ledger">
+    <h2>Cash ledger</h2>
+    <p class="hint" id="ledger-hint"></p>
+    <div id="ledger-table"></div>
+    <p class="dl">
+      <a href="data/ledger.csv" download>Download the full ledger (CSV)</a>
+      <a href="data/equity.csv" download>Download equity history (CSV)</a>
+    </p>
+  </section>
+
+  <section id="health" class="card" aria-label="Data health">
+    <h2>Data health</h2>
+    <p class="hint">A failed news or macro source counts as neutral, so it can't trigger a trade.</p>
+    <div id="health-list"></div>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
