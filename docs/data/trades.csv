@@ -1,1 +1,2 @@
 trade_id,symbol,entry_time,entry_price,exit_time,exit_price,qty,fees,pnl,pnl_pct,r_multiple,hold_hours,entry_score,exit_reason
+T00001,SOXSB,2026-11-05T06:50:59Z,63.301635,2026-11-05T16:21:00Z,73.77800406722916,15.79,2.164488,163.25738,16.333,1.969,9.5,89.1,Trailing stop
