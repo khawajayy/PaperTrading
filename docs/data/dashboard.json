@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-05T06:50:59Z",
+ "generated_at": "2026-11-05T06:52:21Z",
  "started_at": "2026-11-05T06:50:59Z",
  "starting_cash": 10000,
  "cash": 8999.47,
- "equity": 9998.03,
- "exposure": 998.56,
+ "equity": 9997.08,
+ "exposure": 997.61,
  "stats": {
-  "return_pct": -0.02,
-  "max_drawdown_pct": -0.02,
+  "return_pct": -0.03,
+  "max_drawdown_pct": -0.03,
   "sharpe": null,
-  "benchmark_return_pct": -0.07,
+  "benchmark_return_pct": -0.02,
   "days": 1
  },
  "trade_stats": {
@@ -31,12 +31,12 @@
    "symbol": "SOXSB",
    "qty": 15.79,
    "entry_price": 63.301635,
-   "price": 63.24,
+   "price": 63.18,
    "stop": 58.050666102678306,
-   "value": 998.56,
-   "pnl": -1.97,
-   "pnl_pct": -0.2,
-   "r": -0.02,
+   "value": 997.61,
+   "pnl": -2.92,
+   "pnl_pct": -0.29,
+   "r": -0.04,
    "entry_time": "2026-11-05T06:50:59Z",
    "entry_score": 89.1
   }
@@ -47,10 +47,10 @@
    "name": "Direxion Semiconductor Bear 3X",
    "leverage": 3,
    "group": "semis_short",
-   "price": 63.255,
-   "change_24h_pct": 19.497,
+   "price": 63.195,
+   "change_24h_pct": 19.629,
    "spread_pct": 0.047,
-   "quote_volume": 3271870,
+   "quote_volume": 3270358,
    "premium_pct": null,
    "final": 89.1,
    "tech": 80.9,
@@ -71,9 +71,11 @@
     "breakout": 10,
     "volume": 0
    },
-   "gates": [],
+   "gates": [
+    "already holding"
+   ],
    "error": null,
-   "action": "BOUGHT at 63.3016",
+   "action": null,
    "held": true
   },
   {
@@ -81,10 +83,10 @@
    "name": "Paxos Gold",
    "leverage": 1,
    "group": "gold",
-   "price": 4122.135,
-   "change_24h_pct": 2.509,
+   "price": 4121.4349999999995,
+   "change_24h_pct": 2.479,
    "spread_pct": 0.0,
-   "quote_volume": 15451560,
+   "quote_volume": 15370826,
    "premium_pct": null,
    "final": 54.6,
    "tech": 31.9,
@@ -117,10 +119,10 @@
    "name": "Tether Gold",
    "leverage": 1,
    "group": "gold",
-   "price": 4111.855,
-   "change_24h_pct": 2.539,
+   "price": 4110.715,
+   "change_24h_pct": 2.505,
    "spread_pct": 0.0,
-   "quote_volume": 48405429,
+   "quote_volume": 48377050,
    "premium_pct": null,
    "final": 44.0,
    "tech": 21.3,
@@ -153,10 +155,10 @@
    "name": "Tradr 2X Long Sandisk",
    "leverage": 2,
    "group": "semis_long",
-   "price": 5.175,
-   "change_24h_pct": -19.845,
+   "price": 5.1850000000000005,
+   "change_24h_pct": -19.41,
    "spread_pct": 0.193,
-   "quote_volume": 6709008,
+   "quote_volume": 6712117,
    "premium_pct": null,
    "final": -70.1,
    "tech": -66.0,
@@ -190,10 +192,10 @@
    "name": "Sandisk",
    "leverage": 1,
    "group": "semis_long",
-   "price": 1014.275,
-   "change_24h_pct": -9.968,
-   "spread_pct": 0.023,
-   "quote_volume": 62821009,
+   "price": 1015.065,
+   "change_24h_pct": -9.891,
+   "spread_pct": 0.025,
+   "quote_volume": 62840614,
    "premium_pct": null,
    "final": -70.1,
    "tech": -66.0,
@@ -227,10 +229,10 @@
    "name": "Direxion Micron Bull 2X",
    "leverage": 2,
    "group": "semis_long",
-   "price": 18.33,
-   "change_24h_pct": -18.769,
-   "spread_pct": 0.109,
-   "quote_volume": 765955,
+   "price": 18.345,
+   "change_24h_pct": -18.725,
+   "spread_pct": 0.163,
+   "quote_volume": 765969,
    "premium_pct": null,
    "final": -72.6,
    "tech": -66.0,
@@ -265,9 +267,9 @@
    "leverage": 2,
    "group": "semis_long",
    "price": 10.94,
-   "change_24h_pct": -19.469,
+   "change_24h_pct": -19.307,
    "spread_pct": 0.183,
-   "quote_volume": 1087434,
+   "quote_volume": 1087496,
    "premium_pct": null,
    "final": -99.4,
    "tech": -89.4,
@@ -301,10 +303,10 @@
    "name": "Direxion Semiconductor Bull 3X",
    "leverage": 3,
    "group": "semis_long",
-   "price": 61.455,
-   "change_24h_pct": -17.517,
+   "price": 61.555,
+   "change_24h_pct": -17.336,
    "spread_pct": 0.016,
-   "quote_volume": 51566912,
+   "quote_volume": 51746854,
    "premium_pct": null,
    "final": -100,
    "tech": -100.0,
@@ -340,13 +342,13 @@
    "leverage": 3,
    "group": "korea",
    "price": 9.385000000000002,
-   "change_24h_pct": -12.975,
+   "change_24h_pct": -13.216,
    "spread_pct": 0.106,
-   "quote_volume": 13755085,
+   "quote_volume": 13758462,
    "premium_pct": null,
    "final": -100,
    "tech": -87.2,
-   "news": -10.4,
+   "news": -10.8,
    "macro": -3.0,
    "rsi": 28.9,
    "adx": 19.4,
@@ -376,10 +378,10 @@
    "name": "Intel",
    "leverage": 1,
    "group": "semis_long",
-   "price": 56.795,
-   "change_24h_pct": -5.507,
+   "price": 56.855000000000004,
+   "change_24h_pct": -5.422,
    "spread_pct": 0.018,
-   "quote_volume": 13017579,
+   "quote_volume": 12987662,
    "premium_pct": null,
    "final": -100,
    "tech": -100.0,
@@ -420,9 +422,9 @@
   },
   "dxy": {
    "symbol": "DX-Y.NYB",
-   "last": 101.27,
+   "last": 101.264,
    "ma20": 101.953,
-   "chg_5d_pct": -0.75
+   "chg_5d_pct": -0.76
   },
   "us10y": {
    "symbol": "^TNX",
@@ -457,8 +459,8 @@
  },
  "news": {
   "semis": {
-   "sentiment": -0.348,
-   "count": 96,
+   "sentiment": -0.347,
+   "count": 95,
    "veto": true,
    "top": [
     {
@@ -555,7 +557,7 @@
    ]
   },
   "marvell": {
-   "sentiment": -0.516,
+   "sentiment": -0.515,
    "count": 51,
    "veto": false,
    "top": [
@@ -653,7 +655,7 @@
    ]
   },
   "intel": {
-   "sentiment": -0.425,
+   "sentiment": -0.424,
    "count": 75,
    "veto": true,
    "top": [
@@ -702,8 +704,8 @@
    ]
   },
   "korea": {
-   "sentiment": -0.794,
-   "count": 67,
+   "sentiment": -0.832,
+   "count": 69,
    "veto": true,
    "top": [
     {
@@ -719,6 +721,13 @@
      "source": "TradingKey",
      "ts": 1793839691.0,
      "score": -4.0
+    },
+    {
+     "title": "KOSPI plunges 4% as Samsung, SK Hynix shares slide",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUWxJcnR0SHdfOTNwQmpvZ2dLR05mM1FTcDd3NUZNQW1YX29aOVdnd25oNVZHdjRXS0FaVWVzWm9fcFh1Y3FmV2RkTE00b3JOOUgzYmNhNWVwQU1zODFpMVRkcVB4TEpZXzhWR3BMdlZsdTQ4TU4yM2F6N2N3ZFEtN1p5V0Y5SjRFZElVTnd5VEJtTFExYk9KaHluRkNwWFBPbmo1SThnZjFBQ1R2WXh0SW5ITmI0RkduTHpOQWhJdWJPWTgwcmpUctIByAFBVV95cUxPUWxJcnR0SHdfOTNwQmpvZ2dLR05mM1FTcDd3NUZNQW1YX29aOVdnd25oNVZHdjRXS0FaVWVzWm9fcFh1Y3FmV2RkTE00b3JOOUgzYmNhNWVwQU1zODFpMVRkcVB4TEpZXzhWR3BMdlZsdTQ4TU4yM2F6N2N3ZFEtN1p5V0Y5SjRFZElVTnd5VEJtTFExYk9KaHluRkNwWFBPbmo1SThnZjFBQ1R2WXh0SW5ITmI0RkduTHpOQWhJdWJPWTgwcmpUcg?oc=5",
+     "source": "The Economic Times",
+     "ts": 1793856540.0,
+     "score": -3.0
     },
     {
      "title": "Asian Markets Rise as South Korea Kospi Slides on Chip Selloff",
@@ -740,18 +749,11 @@
      "source": "BigGo Finance",
      "ts": 1793840820.0,
      "score": -3.0
-    },
-    {
-     "title": "Kospi surges over 3% at open as US tech stocks rebound; Samsung Electronics, SK hynix lead gains",
-     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBNazhLVGtjMWZENnZlaE95TVpxZmpqcXNrQ2hrNmh6Rl9lemhrWXpqLTQxWlNuMU9LNmJjY2xacGRQX2lfejJNcnk3NTFaa3ZZS0FTTWNnSQ?oc=5",
-     "source": "\ud5e4\ub7f4\ub4dc\uacbd\uc81c",
-     "ts": 1793753289.0,
-     "score": 3.0
     }
    ]
   },
   "gold": {
-   "sentiment": 0.913,
+   "sentiment": 0.912,
    "count": 119,
    "veto": false,
    "top": [
@@ -842,6 +844,15 @@
    "exposure": "998.56",
    "drawdown_pct": "-0.02",
    "benchmark": "9993.04",
+   "open_positions": "1"
+  },
+  {
+   "time": "2026-11-05T06:52:21Z",
+   "equity": "9997.08",
+   "cash": "8999.47",
+   "exposure": "997.61",
+   "drawdown_pct": "-0.029",
+   "benchmark": "9997.58",
    "open_positions": "1"
   }
  ],
