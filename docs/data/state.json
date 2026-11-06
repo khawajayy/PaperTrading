@@ -9,16 +9,16 @@
    "initial_stop": 61.24051629496301,
    "stop": 61.24051629496301,
    "atr": 3.805937482014795,
-   "high_water": 75.35,
+   "high_water": 76.01,
    "entry_fee": 0.7556672447999999,
    "entry_score": 78.3,
-   "last_price": 66.94,
-   "last_checked_bar": 1793961600000
+   "last_price": 75.46,
+   "last_checked_bar": 1793987700000
   }
  },
  "ledger_seq": 7,
  "trade_seq": 2,
- "peak_equity": 10197.29705053,
+ "peak_equity": 10212.74726803,
  "day": {
   "date": "2026-11-06",
   "start_equity": 10163.25738007
@@ -40,5 +40,5 @@
   "XAUT": 4111.86,
   "PAXG": 4122.14
  },
- "last_equity": 10121.75366803
+ "last_equity": 10212.74726803
 }
