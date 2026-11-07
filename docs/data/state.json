@@ -12,8 +12,8 @@
    "high_water": 76.01,
    "entry_fee": 0.7556672447999999,
    "entry_score": 78.3,
-   "last_price": 71.07,
-   "last_checked_bar": 1794019500000
+   "last_price": 71.25,
+   "last_checked_bar": 1794045300000
   }
  },
  "ledger_seq": 7,
@@ -40,5 +40,5 @@
   "XAUT": 4111.86,
   "PAXG": 4122.14
  },
- "last_equity": 10165.86206803
+ "last_equity": 10167.78446803
 }
