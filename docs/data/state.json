@@ -12,16 +12,16 @@
    "high_water": 76.01,
    "entry_fee": 0.7556672447999999,
    "entry_score": 78.3,
-   "last_price": 70.76,
-   "last_checked_bar": 1794084600000
+   "last_price": 71.47,
+   "last_checked_bar": 1794097500000
   }
  },
  "ledger_seq": 7,
  "trade_seq": 2,
  "peak_equity": 10212.74726803,
  "day": {
-  "date": "2026-11-07",
-  "start_equity": 10165.86206803
+  "date": "2026-11-08",
+  "start_equity": 10170.13406803
  },
  "cooldown_until": {},
  "last_signal_bar": {
@@ -40,5 +40,5 @@
   "XAUT": 4111.86,
   "PAXG": 4122.14
  },
- "last_equity": 10162.55126803
+ "last_equity": 10170.13406803
 }
