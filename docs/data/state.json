@@ -1,22 +1,7 @@
 {
- "cash": 7038.60495128,
- "positions": {
-  "PAXG": {
-   "trade_id": "T00003",
-   "qty": 0.7311,
-   "entry_price": 4127.515337999999,
-   "entry_time": 1794274093.5144496,
-   "initial_stop": 4095.3975407050457,
-   "stop": 4095.3975407050457,
-   "atr": 12.847118917981472,
-   "high_water": 4127.515337999999,
-   "entry_fee": 3.0176264636117995,
-   "entry_score": 59.2,
-   "last_price": 4126.68,
-   "last_checked_bar": 1794274200000
-  }
- },
- "ledger_seq": 11,
+ "cash": 10027.96125755,
+ "positions": {},
+ "ledger_seq": 13,
  "trade_seq": 3,
  "peak_equity": 10212.74726803,
  "day": {
@@ -24,7 +9,8 @@
   "start_equity": 10059.24904135
  },
  "cooldown_until": {
-  "SOXSB": 1794257460.0
+  "SOXSB": 1794257460.0,
+  "PAXG": 1794322860.0
  },
  "last_signal_bar": {
   "SOXSB": 1793926800000,
@@ -43,5 +29,5 @@
   "XAUT": 4111.86,
   "PAXG": 4122.14
  },
- "last_equity": 10055.62069928
+ "last_equity": 10027.96125755
 }
