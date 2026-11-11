@@ -5,8 +5,8 @@
  "trade_seq": 3,
  "peak_equity": 10212.74726803,
  "day": {
-  "date": "2026-11-10",
-  "start_equity": 10059.24904135
+  "date": "2026-11-11",
+  "start_equity": 10027.96125755
  },
  "cooldown_until": {
   "SOXSB": 1794257460.0,
