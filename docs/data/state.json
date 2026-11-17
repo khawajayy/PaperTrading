@@ -1,30 +1,15 @@
 {
- "cash": 9080.48576932,
- "positions": {
-  "SOXSB": {
-   "trade_id": "T00005",
-   "qty": 17.06,
-   "entry_price": 59.129549999999995,
-   "entry_time": 1794862652.7105622,
-   "initial_stop": 55.26642721271919,
-   "stop": 55.26642721271919,
-   "atr": 1.5452491149123244,
-   "high_water": 59.129549999999995,
-   "entry_fee": 1.0087501229999998,
-   "entry_score": 81.4,
-   "last_price": 59.07,
-   "last_checked_bar": 1794862800000
-  }
- },
- "ledger_seq": 19,
+ "cash": 10020.97531872,
+ "positions": {},
+ "ledger_seq": 21,
  "trade_seq": 5,
  "peak_equity": 10212.74726803,
  "day": {
-  "date": "2026-11-16",
-  "start_equity": 10027.96125755
+  "date": "2026-11-17",
+  "start_equity": 10020.97531872
  },
  "cooldown_until": {
-  "SOXSB": 1794257460.0,
+  "SOXSB": 1794907860.0,
   "PAXG": 1794322860.0
  },
  "last_signal_bar": {
@@ -44,5 +29,5 @@
   "XAUT": 4111.86,
   "PAXG": 4122.14
  },
- "last_equity": 10088.219969319998
+ "last_equity": 10020.97531872
 }
