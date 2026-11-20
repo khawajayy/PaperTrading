@@ -9,11 +9,11 @@
    "initial_stop": 56.95689071771345,
    "stop": 56.95689071771345,
    "atr": 2.7780177129146173,
-   "high_water": 67.59,
+   "high_water": 70.31,
    "entry_fee": 0.9125196318,
    "entry_score": 83.7,
-   "last_price": 66.91,
-   "last_checked_bar": 1795143600000
+   "last_price": 69.38,
+   "last_checked_bar": 1795173900000
   }
  },
  "ledger_seq": 27,
@@ -44,5 +44,5 @@
   "XAUT": 4111.86,
   "PAXG": 4122.14
  },
- "last_equity": 9959.84129644
+ "last_equity": 9995.11289644
 }
