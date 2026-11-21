@@ -1,119 +1,69 @@
 {
- "generated_at": "2026-11-20T20:03:08Z",
+ "generated_at": "2026-11-21T01:26:34Z",
  "started_at": "2026-11-05T06:50:59Z",
  "starting_cash": 10000,
- "cash": 9004.37,
- "equity": 10163.05,
- "exposure": 1158.68,
+ "cash": 10096.14,
+ "equity": 10096.14,
+ "exposure": 0.0,
  "stats": {
-  "return_pct": 1.63,
+  "return_pct": 0.96,
   "max_drawdown_pct": -2.91,
   "sharpe": null,
-  "benchmark_return_pct": -35.0,
-  "days": 16
+  "benchmark_return_pct": -34.74,
+  "days": 17
  },
  "trade_stats": {
-  "trades": 6,
-  "wins": 2,
+  "trades": 7,
+  "wins": 3,
   "losses": 4,
-  "win_rate_pct": 33.3,
-  "profit_factor": 0.73,
-  "avg_r": -0.22,
-  "avg_win": 112.77,
+  "win_rate_pct": 42.9,
+  "profit_factor": 1.31,
+  "avg_r": 0.07,
+  "avg_win": 134.63,
   "avg_loss": -76.94,
-  "total_pnl": -82.2,
-  "total_fees": 15.37,
-  "avg_hold_hours": 21.4
+  "total_pnl": 96.14,
+  "total_fees": 17.38,
+  "avg_hold_hours": 21.9
  },
  "per_symbol": [
+  {
+   "symbol": "SOXSB",
+   "trades": 6,
+   "wins": 3,
+   "pnl": 127.42
+  },
   {
    "symbol": "PAXG",
    "trades": 1,
    "wins": 0,
    "pnl": -31.29
-  },
-  {
-   "symbol": "SOXSB",
-   "trades": 5,
-   "wins": 2,
-   "pnl": -50.92
   }
  ],
- "positions": [
-  {
-   "symbol": "SOXSB",
-   "qty": 14.28,
-   "entry_price": 63.901934999999995,
-   "price": 81.14,
-   "stop": 73.83594686125615,
-   "value": 1158.68,
-   "pnl": 245.25,
-   "pnl_pct": 26.88,
-   "r": 2.47,
-   "entry_time": "2026-11-19T21:26:11Z",
-   "entry_score": 83.7
-  }
- ],
+ "positions": [],
  "signals": [
   {
    "symbol": "SOXSB",
    "name": "Direxion Semiconductor Bear 3X",
    "leverage": 3,
    "group": "semis_short",
-   "price": 81.175,
-   "change_24h_pct": 28.982,
-   "spread_pct": 0.086,
-   "quote_volume": 6794998,
-   "premium_pct": -0.26,
-   "final": 100,
-   "tech": 78.7,
+   "price": 76.495,
+   "change_24h_pct": 17.458,
+   "spread_pct": 0.039,
+   "quote_volume": 7513119,
+   "premium_pct": null,
+   "final": 78.4,
+   "tech": 48.9,
    "news": 14.5,
    "macro": 15.0,
-   "rsi": 78.8,
-   "adx": 48.5,
-   "atr_pct": 4.12,
-   "vol_ratio": 1.44,
+   "rsi": 59.8,
+   "adx": 43.5,
+   "atr_pct": 4.41,
+   "vol_ratio": 0.6,
    "points": {
     "trend_1h": 12,
     "trend_4h": 12,
     "trend_1d": 12,
-    "rsi": -8,
-    "macd_sign": 8,
-    "macd_slope": 6,
-    "adx": 12,
-    "breakout": 10,
-    "volume": 10
-   },
-   "gates": [
-    "already holding"
-   ],
-   "error": null,
-   "action": null,
-   "held": true
-  },
-  {
-   "symbol": "INTCB",
-   "name": "Intel",
-   "leverage": 1,
-   "group": "semis_long",
-   "price": 53.165,
-   "change_24h_pct": -4.285,
-   "spread_pct": 0.019,
-   "quote_volume": 16734126,
-   "premium_pct": 0.33,
-   "final": -72.5,
-   "tech": -48.9,
-   "news": -8.6,
-   "macro": -15.0,
-   "rsi": 43.0,
-   "adx": 22.7,
-   "atr_pct": 2.35,
-   "vol_ratio": 0.76,
-   "points": {
-    "trend_1h": -12,
-    "trend_4h": -12,
-    "trend_1d": -12,
-    "rsi": -8,
+    "rsi": 12,
     "macd_sign": -8,
     "macd_slope": -6,
     "adx": 12,
@@ -121,8 +71,45 @@
     "volume": 0
    },
    "gates": [
-    "score -72.5 is below 55",
-    "conflicts with open SOXSB"
+    "US market closed for the weekend"
+   ],
+   "error": null,
+   "action": null,
+   "held": false
+  },
+  {
+   "symbol": "INTCB",
+   "name": "Intel",
+   "leverage": 1,
+   "group": "semis_long",
+   "price": 53.105000000000004,
+   "change_24h_pct": -3.137,
+   "spread_pct": 0.019,
+   "quote_volume": 15615469,
+   "premium_pct": null,
+   "final": -47.6,
+   "tech": -23.4,
+   "news": -9.2,
+   "macro": -15.0,
+   "rsi": 45.9,
+   "adx": 16.9,
+   "atr_pct": 2.2,
+   "vol_ratio": 0.12,
+   "points": {
+    "trend_1h": -12,
+    "trend_4h": -12,
+    "trend_1d": -12,
+    "rsi": 0,
+    "macd_sign": 8,
+    "macd_slope": 6,
+    "adx": 0,
+    "breakout": 0,
+    "volume": 0
+   },
+   "gates": [
+    "score -47.6 is below 55",
+    "VIX 36 is above the halt level",
+    "US market closed for the weekend"
    ],
    "error": null,
    "action": null,
@@ -133,32 +120,32 @@
    "name": "Tether Gold",
    "leverage": 1,
    "group": "gold",
-   "price": 3514.175,
-   "change_24h_pct": -4.011,
+   "price": 3539.385,
+   "change_24h_pct": -1.112,
    "spread_pct": 0.0,
-   "quote_volume": 76800501,
+   "quote_volume": 68603752,
    "premium_pct": null,
-   "final": -73.3,
-   "tech": -61.7,
-   "news": -14.6,
+   "final": -55.7,
+   "tech": -44.7,
+   "news": -14.0,
    "macro": 3.0,
-   "rsi": 28.1,
-   "adx": 55.0,
-   "atr_pct": 0.77,
-   "vol_ratio": 0.54,
+   "rsi": 36.3,
+   "adx": 53.8,
+   "atr_pct": 0.66,
+   "vol_ratio": 0.08,
    "points": {
     "trend_1h": -12,
     "trend_4h": -12,
     "trend_1d": -12,
-    "rsi": -12,
+    "rsi": -8,
     "macd_sign": 8,
-    "macd_slope": -6,
+    "macd_slope": 6,
     "adx": -12,
     "breakout": 0,
     "volume": 0
    },
    "gates": [
-    "score -73.3 is below 55",
+    "score -55.7 is below 55",
     "high-impact bad news"
    ],
    "error": null,
@@ -170,32 +157,32 @@
    "name": "Paxos Gold",
    "leverage": 1,
    "group": "gold",
-   "price": 3514.535,
-   "change_24h_pct": -3.977,
+   "price": 3541.175,
+   "change_24h_pct": -1.031,
    "spread_pct": 0.0,
-   "quote_volume": 42697622,
+   "quote_volume": 34537061,
    "premium_pct": null,
-   "final": -73.3,
-   "tech": -61.7,
-   "news": -14.6,
+   "final": -55.7,
+   "tech": -44.7,
+   "news": -14.0,
    "macro": 3.0,
-   "rsi": 28.4,
-   "adx": 57.5,
-   "atr_pct": 0.78,
-   "vol_ratio": 0.84,
+   "rsi": 37.2,
+   "adx": 55.4,
+   "atr_pct": 0.66,
+   "vol_ratio": 0.14,
    "points": {
     "trend_1h": -12,
     "trend_4h": -12,
     "trend_1d": -12,
-    "rsi": -12,
+    "rsi": -8,
     "macd_sign": 8,
-    "macd_slope": -6,
+    "macd_slope": 6,
     "adx": -12,
     "breakout": 0,
     "volume": 0
    },
    "gates": [
-    "score -73.3 is below 55",
+    "score -55.7 is below 55",
     "high-impact bad news"
    ],
    "error": null,
@@ -203,23 +190,101 @@
    "held": false
   },
   {
-   "symbol": "SNDKB",
-   "name": "Sandisk",
-   "leverage": 1,
+   "symbol": "MVLLB",
+   "name": "GraniteShares 2X Long Marvell",
+   "leverage": 2,
    "group": "semis_long",
-   "price": 79.49000000000001,
-   "change_24h_pct": -89.569,
-   "spread_pct": 0.025,
-   "quote_volume": 7836704,
-   "premium_pct": 0.34,
-   "final": -95.4,
-   "tech": -66.0,
-   "news": -14.4,
+   "price": 6.525,
+   "change_24h_pct": -16.837,
+   "spread_pct": 0.153,
+   "quote_volume": 583336,
+   "premium_pct": null,
+   "final": -73.7,
+   "tech": -48.9,
+   "news": -9.8,
    "macro": -15.0,
-   "rsi": 3.2,
-   "adx": 41.4,
-   "atr_pct": 57.23,
-   "vol_ratio": 0.96,
+   "rsi": 34.0,
+   "adx": 47.9,
+   "atr_pct": 4.7,
+   "vol_ratio": 0.51,
+   "points": {
+    "trend_1h": -12,
+    "trend_4h": -12,
+    "trend_1d": -12,
+    "rsi": -12,
+    "macd_sign": 8,
+    "macd_slope": 6,
+    "adx": -12,
+    "breakout": 0,
+    "volume": 0
+   },
+   "gates": [
+    "score -73.7 is below 55",
+    "VIX 36 is above the halt level",
+    "US market closed for the weekend"
+   ],
+   "error": null,
+   "action": null,
+   "held": false
+  },
+  {
+   "symbol": "SNXXB",
+   "name": "Tradr 2X Long Sandisk",
+   "leverage": 2,
+   "group": "semis_long",
+   "price": 1.8250000000000002,
+   "change_24h_pct": -26.8,
+   "spread_pct": 0.546,
+   "quote_volume": 8417451,
+   "premium_pct": null,
+   "final": -78.0,
+   "tech": -48.9,
+   "news": -14.1,
+   "macro": -15.0,
+   "rsi": 27.9,
+   "adx": 45.7,
+   "atr_pct": 6.36,
+   "vol_ratio": 0.1,
+   "points": {
+    "trend_1h": -12,
+    "trend_4h": -12,
+    "trend_1d": -12,
+    "rsi": -12,
+    "macd_sign": 8,
+    "macd_slope": 6,
+    "adx": -12,
+    "breakout": 0,
+    "volume": 0
+   },
+   "gates": [
+    "score -78.0 is below 55",
+    "spread 0.55% too wide",
+    "high-impact bad news",
+    "VIX 36 is above the halt level",
+    "US market closed for the weekend"
+   ],
+   "error": null,
+   "action": null,
+   "held": false
+  },
+  {
+   "symbol": "MUUB",
+   "name": "Direxion Micron Bull 2X",
+   "leverage": 2,
+   "group": "semis_long",
+   "price": 10.19,
+   "change_24h_pct": -22.095,
+   "spread_pct": 0.196,
+   "quote_volume": 922837,
+   "premium_pct": null,
+   "final": -94.3,
+   "tech": -66.0,
+   "news": -13.3,
+   "macro": -15.0,
+   "rsi": 30.7,
+   "adx": 42.0,
+   "atr_pct": 5.08,
+   "vol_ratio": 1.13,
    "points": {
     "trend_1h": -12,
     "trend_4h": -12,
@@ -232,161 +297,10 @@
     "volume": 0
    },
    "gates": [
-    "score -95.4 is below 55",
+    "score -94.3 is below 55",
     "high-impact bad news",
-    "conflicts with open SOXSB"
-   ],
-   "error": null,
-   "action": null,
-   "held": false
-  },
-  {
-   "symbol": "SOXLB",
-   "name": "Direxion Semiconductor Bull 3X",
-   "leverage": 3,
-   "group": "semis_long",
-   "price": 32.45,
-   "change_24h_pct": -28.769,
-   "spread_pct": 0.062,
-   "quote_volume": 123366568,
-   "premium_pct": 0.9,
-   "final": -100,
-   "tech": -100.0,
-   "news": -14.5,
-   "macro": -15.0,
-   "rsi": 21.7,
-   "adx": 47.3,
-   "atr_pct": 7.54,
-   "vol_ratio": 2.52,
-   "points": {
-    "trend_1h": -12,
-    "trend_4h": -12,
-    "trend_1d": -12,
-    "rsi": -12,
-    "macd_sign": -8,
-    "macd_slope": -6,
-    "adx": -12,
-    "breakout": -10,
-    "volume": -10
-   },
-   "gates": [
-    "score -100.0 is below 55",
-    "high-impact bad news",
-    "conflicts with open SOXSB"
-   ],
-   "error": null,
-   "action": null,
-   "held": false
-  },
-  {
-   "symbol": "SNXXB",
-   "name": "Tradr 2X Long Sandisk",
-   "leverage": 2,
-   "group": "semis_long",
-   "price": 1.755,
-   "change_24h_pct": -32.567,
-   "spread_pct": 0.568,
-   "quote_volume": 9533708,
-   "premium_pct": 0.52,
-   "final": -100,
-   "tech": -78.7,
-   "news": -14.4,
-   "macro": -15.0,
-   "rsi": 16.8,
-   "adx": 45.6,
-   "atr_pct": 7.96,
-   "vol_ratio": 0.97,
-   "points": {
-    "trend_1h": -12,
-    "trend_4h": -12,
-    "trend_1d": -12,
-    "rsi": -12,
-    "macd_sign": -8,
-    "macd_slope": -6,
-    "adx": -12,
-    "breakout": 0,
-    "volume": 0
-   },
-   "gates": [
-    "score -100.0 is below 55",
-    "spread 0.57% too wide",
-    "high-impact bad news",
-    "conflicts with open SOXSB"
-   ],
-   "error": null,
-   "action": null,
-   "held": false
-  },
-  {
-   "symbol": "MVLLB",
-   "name": "GraniteShares 2X Long Marvell",
-   "leverage": 2,
-   "group": "semis_long",
-   "price": 6.3,
-   "change_24h_pct": -23.821,
-   "spread_pct": 0.317,
-   "quote_volume": 520496,
-   "premium_pct": 0.32,
-   "final": -100,
-   "tech": -100.0,
-   "news": -10.8,
-   "macro": -15.0,
-   "rsi": 23.2,
-   "adx": 49.6,
-   "atr_pct": 5.44,
-   "vol_ratio": 1.36,
-   "points": {
-    "trend_1h": -12,
-    "trend_4h": -12,
-    "trend_1d": -12,
-    "rsi": -12,
-    "macd_sign": -8,
-    "macd_slope": -6,
-    "adx": -12,
-    "breakout": -10,
-    "volume": -10
-   },
-   "gates": [
-    "score -100.0 is below 55",
-    "conflicts with open SOXSB"
-   ],
-   "error": null,
-   "action": null,
-   "held": false
-  },
-  {
-   "symbol": "MUUB",
-   "name": "Direxion Micron Bull 2X",
-   "leverage": 2,
-   "group": "semis_long",
-   "price": 9.8,
-   "change_24h_pct": -27.374,
-   "spread_pct": 0.204,
-   "quote_volume": 901189,
-   "premium_pct": 0.72,
-   "final": -100,
-   "tech": -89.4,
-   "news": -13.6,
-   "macro": -15.0,
-   "rsi": 22.3,
-   "adx": 40.4,
-   "atr_pct": 6.27,
-   "vol_ratio": 1.37,
-   "points": {
-    "trend_1h": -12,
-    "trend_4h": -12,
-    "trend_1d": -12,
-    "rsi": -12,
-    "macd_sign": -8,
-    "macd_slope": -6,
-    "adx": -12,
-    "breakout": 0,
-    "volume": -10
-   },
-   "gates": [
-    "score -100.0 is below 55",
-    "high-impact bad news",
-    "conflicts with open SOXSB"
+    "VIX 36 is above the halt level",
+    "US market closed for the weekend"
    ],
    "error": null,
    "action": null,
@@ -397,32 +311,112 @@
    "name": "Direxion South Korea Bull 3X",
    "leverage": 3,
    "group": "korea",
-   "price": 4.905,
-   "change_24h_pct": -23.401,
-   "spread_pct": 0.204,
-   "quote_volume": 11703757,
-   "premium_pct": 0.1,
-   "final": -100,
-   "tech": -100.0,
+   "price": 5.035,
+   "change_24h_pct": -21.373,
+   "spread_pct": 0.198,
+   "quote_volume": 12209906,
+   "premium_pct": null,
+   "final": -94.3,
+   "tech": -66.0,
    "news": -13.3,
    "macro": -15.0,
-   "rsi": 19.9,
-   "adx": 46.0,
-   "atr_pct": 5.01,
-   "vol_ratio": 1.79,
+   "rsi": 30.6,
+   "adx": 50.6,
+   "atr_pct": 4.37,
+   "vol_ratio": 0.28,
    "points": {
     "trend_1h": -12,
     "trend_4h": -12,
     "trend_1d": -12,
     "rsi": -12,
     "macd_sign": -8,
-    "macd_slope": -6,
+    "macd_slope": 6,
     "adx": -12,
-    "breakout": -10,
-    "volume": -10
+    "breakout": 0,
+    "volume": 0
    },
    "gates": [
-    "score -100.0 is below 55"
+    "score -94.3 is below 55",
+    "VIX 36 is above the halt level",
+    "US market closed for the weekend"
+   ],
+   "error": null,
+   "action": null,
+   "held": false
+  },
+  {
+   "symbol": "SNDKB",
+   "name": "Sandisk",
+   "leverage": 1,
+   "group": "semis_long",
+   "price": 81.255,
+   "change_24h_pct": -7.659,
+   "spread_pct": 0.012,
+   "quote_volume": 7909575,
+   "premium_pct": null,
+   "final": -95.1,
+   "tech": -66.0,
+   "news": -14.1,
+   "macro": -15.0,
+   "rsi": 3.8,
+   "adx": 54.5,
+   "atr_pct": 39.19,
+   "vol_ratio": 0.25,
+   "points": {
+    "trend_1h": -12,
+    "trend_4h": -12,
+    "trend_1d": -12,
+    "rsi": -12,
+    "macd_sign": -8,
+    "macd_slope": 6,
+    "adx": -12,
+    "breakout": 0,
+    "volume": 0
+   },
+   "gates": [
+    "score -95.1 is below 55",
+    "high-impact bad news",
+    "VIX 36 is above the halt level",
+    "US market closed for the weekend"
+   ],
+   "error": null,
+   "action": null,
+   "held": false
+  },
+  {
+   "symbol": "SOXLB",
+   "name": "Direxion Semiconductor Bull 3X",
+   "leverage": 3,
+   "group": "semis_long",
+   "price": 33.465,
+   "change_24h_pct": -24.156,
+   "spread_pct": 0.03,
+   "quote_volume": 157256737,
+   "premium_pct": null,
+   "final": -95.5,
+   "tech": -66.0,
+   "news": -14.5,
+   "macro": -15.0,
+   "rsi": 31.9,
+   "adx": 48.8,
+   "atr_pct": 6.54,
+   "vol_ratio": 0.28,
+   "points": {
+    "trend_1h": -12,
+    "trend_4h": -12,
+    "trend_1d": -12,
+    "rsi": -12,
+    "macd_sign": -8,
+    "macd_slope": 6,
+    "adx": -12,
+    "breakout": 0,
+    "volume": 0
+   },
+   "gates": [
+    "score -95.5 is below 55",
+    "high-impact bad news",
+    "VIX 36 is above the halt level",
+    "US market closed for the weekend"
    ],
    "error": null,
    "action": null,
@@ -433,27 +427,27 @@
  "macro": {
   "vix": {
    "symbol": "^VIX",
-   "last": 34.02,
-   "ma20": 21.605,
-   "chg_5d_pct": 76.27
+   "last": 35.89,
+   "ma20": 21.699,
+   "chg_5d_pct": 85.96
   },
   "dxy": {
    "symbol": "DX-Y.NYB",
-   "last": 103.81,
-   "ma20": 102.568,
-   "chg_5d_pct": 0.39
+   "last": 103.84,
+   "ma20": 102.569,
+   "chg_5d_pct": 0.42
   },
   "us10y": {
    "symbol": "^TNX",
-   "last": 4.914,
+   "last": 4.912,
    "ma20": 4.987,
-   "chg_5d_pct": -4.66
+   "chg_5d_pct": -4.7
   },
   "smh": {
    "symbol": "SMH",
-   "last": 404.36,
-   "ma20": 494.704,
-   "chg_5d_pct": -16.93
+   "last": 447.48,
+   "ma20": 500.846,
+   "chg_5d_pct": -10.81
   }
  },
  "calendar": [],
@@ -463,8 +457,8 @@
  },
  "news": {
   "semis": {
-   "sentiment": -0.969,
-   "count": 82,
+   "sentiment": -0.966,
+   "count": 95,
    "veto": true,
    "top": [
     {
@@ -483,9 +477,9 @@
     },
     {
      "title": "Stock Market Midday, Nov. 20: Nasdaq Plunges Nearly 3% as AMD and Micron Lead a Brutal Semiconductor Sell-Off",
-     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPQTI2OU91ajVQOVJDTGFqbVdseVZrcmIySkoxU0tqTm9BbjFqQmVMWXBNT0VScjFpUmJiTFJtSDl4SmhXQi1VTThGa2hsWi1VTHlGWk1kVXVEMWlrTFBTMlQ3Vk5VTWtLa18yME93NFFhcC1mZFNzZl9mXzVIOUpkcTVjcDlMWkdwSXhETzVVVUpxMk1MYm1wT01mcmpsQXJ0aGRYRTFwVnRzTk02dkx2amFFWjNteG45NTFMeXFJZjU3MjMyLXU5ZUQtOWMtS0VkbENnMkJFME9NS1JlRG1yczN4Q1Y4REM1MzZFYUtZcExOcTVqQk1Ga3BR?oc=5",
-     "source": "The Motley Fool",
-     "ts": 1795194002.0,
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcmlaZDdveTVTR1NZaE1BMVVzRGhXRkthLWZqRlJwenIxZE5YdDhFOGpoXzhxbndwR1YtZkJPMkU0aWRUb3ZTTXB4bHJOYzNDc2dBeUtiYzhHYjhsTlJfNklHbGgxTTUzSUZfZ0J4em54LUoyTDBUWnhtU25OVmp3TUQ0ZnROQnFYQzhBcnJvelMwdXFXeEE?oc=5",
+     "source": "Yahoo Finance",
+     "ts": 1795195202.0,
      "score": -5.0
     },
     {
@@ -496,26 +490,33 @@
      "score": -5.0
     },
     {
+     "title": "US Stock Market Plunges Amid Steep Drops in Semiconductor Stocks and Anthropic",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Qc2E3RlU4T2t0MUhGWkphMVlfM290d0xhak9hN0ZVTnZ4d01hVjJZb2NPaU54cllEYkRYV3hGdUJWNzVrSzFRa0M2a2JnODhPRERnbkExX215SzFLek5JRDJ2WEpieE1BZk5BUnh30gFmQVVfeXFMUGRsa180QlRUMUt1QUNrbW5DWXVSdDVhN09DSG8xV3h3OEF2UmlVWHBvckMwYm0zWGZKZmk2NzJkalMtM3pNZm5BX1M4YnJXTkFLblQ1N2xCdE5jVkk2dWNIRldYcEpn?oc=5",
+     "source": "SBS \ub274\uc2a4",
+     "ts": 1795217460.0,
+     "score": -4.0
+    },
+    {
      "title": "AMD Stock Drops Another 7% Before the Bell and Taiwan Semiconductor Slides 4.2% as Nasdaq Futures Fall 1.6% After Asia's Chip Selloff",
      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPWHNvMF9Dd0hVZ19jbHZ3T1NBcjFXYVBNMlYtWlNWRDZGQ0ZEcVd0UmduSU01UHY2V0s4V2tfMWZRVlNPUFJrbl9hM0FyMHFJaXpiQm9yb3NiLU9GbnAtdG84M3FZblYyMWFUNVBtSk45Vnc4UzR4YmRiRHRxVG1JNnhONFhKa2xDQVRIeDBBaTFJeURhRzRSZFZKdXF4N1lnbGZHTHhWek94UXgzVjVqMDdKNXlpbkdNZ1pBajQ1UTJpUWNTVVFrdHVRczRmdFJ1cWNkVm9iZ0owNnk4SjBqajRxa0FSY3djOTlYVVZ5NGxGNUpYYjhtNEtzZy03RUpzZF9PdTB3?oc=5",
      "source": "24/7 Wall St.",
      "ts": 1795176780.0,
      "score": -4.0
-    },
-    {
-     "title": "Semiconductor ETF draws $93 million bearish options bet as chip selloff deepens",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcTd5OGZtZFZYMDd1M3JxekRUU3RET3E0bGVlejZobTlQdWt1aU5VaGNVV3dQWEhlbUZ2NUo5UE5RMjc1S0UzMm5jYnFsbHlmZzdYaW9YNWdMY0dXWkFkN3E0Y0w5VzdsTGYwaVdjYVFqZndYNHNVN2NtNGNZNGlya1loNWhBaDJ6enFEdDhLQlBjdw?oc=5",
-     "source": "Traders Union",
-     "ts": 1795204474.0,
-     "score": -3.0
     }
    ]
   },
   "sandisk": {
-   "sentiment": -0.957,
-   "count": 111,
+   "sentiment": -0.934,
+   "count": 115,
    "veto": true,
    "top": [
+    {
+     "title": "Micron and SanDisk Stocks Crash 12%-14% as AI Selloff Spreads to Memory Chipmakers",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYV83ZXhRN1MzSExhN3JhZi1xNEpVUlplSHcwZS1rOW1BR19QU0U3SDIzUXltZDZaQ25ETElCaVdFSnJDckhqUU5FYmRPMTdtU1pJV214X2RBb29qNDlNanhtczBQamVQMGlIWFBkU2pUVWxrdm56OU1IRHdBdXBrdWt5V1pRaVpFMmc2Rl8wT2l2N1YxSHhLLXRGUUNaU0tOaXFPOWI3V0hHazFEaXc?oc=5",
+     "source": "Coinpaper",
+     "ts": 1795213934.0,
+     "score": -5.0
+    },
     {
      "title": "Micron Stock Plunges 13% as Barron's Calls Memory Stocks 'Agonizingly Cheap'; Western Digital, SanDisk and Seagate Sink in AI Chip Selloff",
      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQeDBWbUJJd2k5MWR4Q2VvS0Fnckc1OG9MVWNxSXBPSzJreVFPUHJTd3ROZ1lFa3RtWC1JMzUyZkE5cmFubEw0dDZLc05wcjFwR1I5cGNwZ2dfMVpmU3NXckNjMjR0MnRNaGwtbjZqb1RVUFU3cTRVc0JMMWZOeVA0aWNZd3FjYkw4UFRxT3dQNzRIR2k0enJmT2VReFRtamZTdFpDY1VzLUtjVXhXUUJYUWVKclRzVGVQUGE2NlA4cHRnc3poWVZTRkk1SFN1SmlDU2NMR05mQ051bURhaGZPQWV4Rkd5UTFBb3htNkZPUUlTMmgyQkhXVTFCazdnZTVKRnU4QUFSdw?oc=5",
@@ -550,19 +551,12 @@
      "source": "SSBCrack",
      "ts": 1795191739.0,
      "score": -3.0
-    },
-    {
-     "title": "Did SanDisk stock crash 87%? No, it split 8-for-1, but SNDK is still falling on a NAND price warning",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbWdaZEVidG4xXzdrWElPcWxZT3lnOGE2Yk5Idk5FSWVrYWxDTDY0RjlzSV9WbElzZnQwemVJTURzandxQTdTV3A2QmtDbWNVT2ZFSGQwa0RGTUtTM1o0TTJKclFGajktWGFoeUFabXFjeXBmUHNYZGRGN2tZR014WEtUUGRmSjNuNEFOMlJYcG90dEI2cnFua0hkT0hENFFjQWVIR19vRVBPdw?oc=5",
-     "source": "Nacionale",
-     "ts": 1795190813.0,
-     "score": -3.0
     }
    ]
   },
   "marvell": {
-   "sentiment": -0.617,
-   "count": 32,
+   "sentiment": -0.524,
+   "count": 37,
    "veto": false,
    "top": [
     {
@@ -570,13 +564,6 @@
      "link": "https://www.tikr.com/blog/credo-sinks-6-marvell-down-5-as-cramer-says-nvidia-woes-are-overwhelming-the-good-news?ref=yahoofinance&tlnk=yf-261120-qv55x6wh&.tsrc=rss",
      "source": "Yahoo Finance",
      "ts": 1795185544.0,
-     "score": -2.0
-    },
-    {
-     "title": "Marvell: Buy The Selloff As It Moves Deeper Into AI Optics (NASDAQ:MRVL)",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMVFLNXVQcVJfbHJKLURwUzY1azZkanJnaGI3Y1ZiTDJGa0c2Mm1CY1dwWVBSTXRValhsQVVzWDhoWDhVT2l3b1kzOFc0QUIzX1RVSWFIcWZDMTE3MXV6aWlvWkxnc3hiSHU4OHVaai1oc2puYVk1R0lsaEVEcGlub09lSGxmWGVQNkVTV3drZGRDS21GOFZSTEVQZUpwZlE?oc=5",
-     "source": "Seeking Alpha",
-     "ts": 1795183965.0,
      "score": -2.0
     },
     {
@@ -595,25 +582,39 @@
     },
     {
      "title": "Credo Sinks 8% in a Week, Marvell 8%, as Bessent Calls for a Nvidia \u201cDramatic Shakeup.\u201d Time to Buy?",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcTNwczRpX0g3NGx3Z29aRVhiTEhLdXNXNlpQUENoRENtRFRJY3d4ZXUwTHVOYjQ2YzZ2TVJIR21QbGJaV1loME5sVVFOTUg1d1Y0eWNOZVNpOERjVHBwNGtjN3ozYlMwTlVCQ2VCaFh6eXRGb0FRcXRFWnI5Y3RHR1JZNUo0aGlEUEFzZFhVVjR5eDdpTWc?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdjNNRk03SV92ZGtxYW9RZlVLSEx4VFVqcVd4TEVRenFaSGZpZ2phdzg2NzhMNHA5ZnlSTTFHMVJKTTk3YzVJbG5nWGROa0UzY0xDWnE2THNlcnVxNXFOR0RCY3JVcXVEeS1nMXF4cGY3dy02cWJVRUluRjhYUnRQeHhfU0IzNWY0V0o0UGdPcXM0UQ?oc=5",
      "source": "TIKR.com",
-     "ts": 1795099520.0,
+     "ts": 1795097936.0,
      "score": -2.0
     },
     {
-     "title": "Marvell Technology falls 4.14% in Thursday's session",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPT0hqb2Q1NnBjb19KVlNPQXh3UFFkN0NLb2ZIREpnWTNSNFdJWkxyODJhekhVbEE5WFJ4WUR5OWJxUm51S1RCYWpiLWNGQm9xSUUzODAxdHREYU85c0VsUThaUlY4dXN2SkVoVG5xZG9teS1JQUpHRjdmM2dpb09FWGc5cGlDUkpT?oc=5",
+     "title": "Marvell Technology falls 11.43% in Friday's session",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQlNDRHhXaHU4bUdpdWxTQlQ1aWZ3RTI1MTNJNEVKWEI3NWxMYTlWaDJvTjJGVmF5UkpHbWJjSkFZM0hQZmZYQXpjTTdTSndmdFlLRjlHZ2lMRmlHQ2MwSkkxQlBGR0FBd2cySW1FX2FUVGJJSGZLRlZFOTNZSjk5MTgyUGc0Rk9H?oc=5",
      "source": "Global Banking & Finance Review",
-     "ts": 1795129050.0,
+     "ts": 1795213271.0,
      "score": -1.0
+    },
+    {
+     "title": "Data Center AI Chips Could Change the Winners: Broadcom and Marvell",
+     "link": "https://247wallst.com/investing/2026/11/20/data-center-ai-chips-could-change-the-winners-broadcom-and-marvell/?.tsrc=rss",
+     "source": "Yahoo Finance",
+     "ts": 1795217154.0,
+     "score": 0.0
     }
    ]
   },
   "micron": {
-   "sentiment": -0.879,
-   "count": 106,
+   "sentiment": -0.854,
+   "count": 103,
    "veto": true,
    "top": [
+    {
+     "title": "Micron and SanDisk Stocks Crash 12%-14% as AI Selloff Spreads to Memory Chipmakers",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYV83ZXhRN1MzSExhN3JhZi1xNEpVUlplSHcwZS1rOW1BR19QU0U3SDIzUXltZDZaQ25ETElCaVdFSnJDckhqUU5FYmRPMTdtU1pJV214X2RBb29qNDlNanhtczBQamVQMGlIWFBkU2pUVWxrdm56OU1IRHdBdXBrdWt5V1pRaVpFMmc2Rl8wT2l2N1YxSHhLLXRGUUNaU0tOaXFPOWI3V0hHazFEaXc?oc=5",
+     "source": "Coinpaper",
+     "ts": 1795213934.0,
+     "score": -5.0
+    },
     {
      "title": "Micron Stock Plunges 13% as Barron's Calls Memory Stocks 'Agonizingly Cheap'; Western Digital, SanDisk and Seagate Sink in AI Chip Selloff",
      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQeDBWbUJJd2k5MWR4Q2VvS0Fnckc1OG9MVWNxSXBPSzJreVFPUHJTd3ROZ1lFa3RtWC1JMzUyZkE5cmFubEw0dDZLc05wcjFwR1I5cGNwZ2dfMVpmU3NXckNjMjR0MnRNaGwtbjZqb1RVUFU3cTRVc0JMMWZOeVA0aWNZd3FjYkw4UFRxT3dQNzRIR2k0enJmT2VReFRtamZTdFpDY1VzLUtjVXhXUUJYUWVKclRzVGVQUGE2NlA4cHRnc3poWVZTRkk1SFN1SmlDU2NMR05mQ051bURhaGZPQWV4Rkd5UTFBb3htNkZPUUlTMmgyQkhXVTFCazdnZTVKRnU4QUFSdw?oc=5",
@@ -643,24 +644,17 @@
      "score": -4.0
     },
     {
-     "title": "AI Stocks Sell-Off Deepens: AMD, Micron and Broadcom Drop Over 5% as Nvidia Slides",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcHdVazdZeGZNN3pudTdTMmNseWF1d0pyUjRMN0lYcFBmTTM3T3FVU0FyMC1fZnRBMTVreEZXUWxKSm5UZW5TbkN3MEExME5LbHJlem5fdHR6ZXh0LUN6TnYwelFaNmh3THFCZW5xZUkzTERqMnRBX0QydHc4cEpJTHpJWk5nVjBPOUlhdy1Hc0c4c3c5TmxnT2JDYUI2LV9aSEp0NGZFNXh5ZUw0YWduMmREcWh3eTFGQk9hbdIBwgFBVV95cUxQM24wLUFudG5DR04zWjl6bXpJVElQbmI2dXo4c1lYS0hDYkdyTElmeDVXV08walpxOWJyZ0JKQ2xpUktxOERZdjFwc1pxVklwbWlvQkJzdzJoQm1TNmNCN1ctQmpuZVpWMmRiS3JkVjBqVUN6amF1RFJ1WWJ3Q2o0Zmd2bEhMSjg5ZUMxV2lIeDFvbUZCQVhCT1JvQ3hCbUtKZHhMazBpaW9hNjNpUTlfVWVWb3ZLMnhKNjdSSFlpT3NaZw?oc=5",
-     "source": "Coinpedia",
-     "ts": 1795194232.0,
-     "score": -3.0
-    },
-    {
-     "title": "Micron leads semiconductor and AI stocks down as SOX plunges 7%",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcmNkNlpFVWJMb1BCTmJvUU1oQnhER2tIYzNZOFpvR0o4bTFvMy1MQTlpQnlUSF9ONGNwZ3AtYmhIRmNLUzFoc0p5WVRZSGJzWVB5NnRfMWdIaFlHdUJ6TDFDRkVMQU83MWRMWFluN013aDVGb1ZDVzhCczZYMzYybG4tOC0waXRuYTRBMUg2RWNxVldQak1GRmdCVjc5Z2xuM2c?oc=5",
-     "source": "Seeking Alpha",
-     "ts": 1795190735.0,
+     "title": "Micron Shares Crash Despite Strong AI Memory Demand: Is MU Undervalued?",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVVF5b05ibS1EQWxSaC1mVURRWk1OdTlubDZtVGFyMWMtSUhzQ04wUUc5YWpMRVhCRVF6WjhIeGF2WUhDdzUzVExzaER0RHZpcmt1czlfek9xR1NRWHN0X2RtR0xTNU9GWHB2UUZpSUxacFpNWlVUVEtoWkg4cFpvMk5nTjZTUG1FeVFxWGNVQ1JtUU9CSy0zMThDZ0xDN0FUcXhvMlk0NkVNR0JvS3ZFVDBsQjNHT3ZybGNBeGFySE5oZXFkdDZLbQ?oc=5",
+     "source": "TradingView",
+     "ts": 1795210725.0,
      "score": -3.0
     }
    ]
   },
   "intel": {
-   "sentiment": -0.415,
-   "count": 88,
+   "sentiment": -0.476,
+   "count": 82,
    "veto": false,
    "top": [
     {
@@ -678,17 +672,17 @@
      "score": -3.0
     },
     {
-     "title": "Intel After The Crash: A 20x Server Business And A Free Foundry (NASDAQ:INTC)",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcTFfTTJPN2FncE0zNzl4ZTB5QUV2XzZKWnpMdmRYUHJBZmx2bEtoMHJyZzlWUjdSWXd4VUNMZ3V2WkNhZEVWeTlnVUEtc0E2T0lZN0VYNDBTc0gwR1hhTW8zcmVnUWdsZ0hSdWVGS1Ffc3FQdkVZd1UzaEFCdlF6Y3ZVSEZablBfdjJ0U2NUelIyaGZ2OVdSUlB1Nk1qYjdYUzQ1Wmpn?oc=5",
-     "source": "Seeking Alpha",
-     "ts": 1795093250.0,
-     "score": -3.0
+     "title": "How to Play INTC Stock as Intel Launches Another Round of Layoffs",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRl9NNzdqR0d6Y3MzRUtyTXdYRVJGNEpqajhEajN0LWU4WW5SS3VYcjgyMmFiS1gwc2lyQ0Y3R3lwNEJVRnJveFNtajlVbWkxNGV1eGltRDNfRjN4bGdvUGdJbUQ3U25xTk4zS0RpblFEdWpSVUU3WW15YlRjZ3VxaUMzUFNiTF80UGRTVHl3a09DR2J0WnRENlY0aw?oc=5",
+     "source": "Yahoo Finance",
+     "ts": 1795200004.0,
+     "score": -2.0
     },
     {
-     "title": "How to Play INTC Stock as Intel Launches Another Round of Layoffs",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdjNNWTlUNFh5WnF1WDlrYS1lUUp5WU5Pa29NUEd5cUxhZWMwM0NlNnBQVlN2T195M0h2LUtuc2FHTXlUaW9DZ1c4UXlKUW9LT1hETU9zb1ZTRVVLWmdtdVN3a3FweG85SXlOb0I3OS00cVl0aTkzTnlEQ2VHR0dqRVFyM1p1TzFzZllvVFVmTDBaYXJ0cjlpektFZ0NSNm5nYjVqMkEtZWE5OXl0M1E?oc=5",
-     "source": "Barchart.com",
-     "ts": 1795200004.0,
+     "title": "Intel shares drop amid broader AI chip sector selloff",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeTA4bGhBa21oOGtOUkpXZm9nejJMZEJ3V29tVnBybnFxTm1wWGItWDN1X1JSQzB4a3M1ZV8zZnR1UTlxOURlOGlXWlJTekJRMTIyOFZpQ2pEOTJHUW1SY0ZKT3lfM3lKaUx1bEVUUFVxZFJ4S1c0Y3EyQXBvVTFSY1VDd3Bhd1k5Q1ZXbnQ4Vkh5aXVIclRvU2ZuUDZqQ3V0MEdKN3pXekVsSTQ?oc=5",
+     "source": "StreetInsider",
+     "ts": 1795199347.0,
      "score": -2.0
     },
     {
@@ -708,10 +702,17 @@
    ]
   },
   "korea": {
-   "sentiment": -0.859,
-   "count": 71,
+   "sentiment": -0.866,
+   "count": 74,
    "veto": false,
    "top": [
+    {
+     "title": "Asian Stock Markets Crash: KOSPI Plunges 4.7%, Nikkei Tumbles 4.8% As AI Selloff Deepens Despite Anthropics",
+     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxObFllVkFPWF9WSFVCNmhXSzRZd3FhcHZxSUo0emp2TjJVR0lPOUNMS2YzYzJyRml4VHgxMEdpWk51d29JenQ1UHloUFBCYU0yVW9yNHJfX1pLUEhoTGNPLTR6Mm84RTRhLU9hZ1Q4OXYtalU3SklqcnluMGwtZE16eDd3ZHpEeTNoZUV6SWtsVUNHV0M3UXh1T3hucmlmQWF0MG1xV013cUF2eEx3Y0xWVG84Y0dSTnBVYjMtNnNYREFYV1lZRDZqV3JtMjZmOGNaVjE0WjBnaElrQjhPUHg0d2VoX0k5d1c1eU90YWN30gHzAUFVX3lxTE1sZV9aeGlCNnowZWVCVzRTWDNwOWQ2T2JtMnMzMUdCQkVJdGNJVTB1a1dURGJqZTkwWFpTaUhSMGV4bHZQcDd2WnYyV0VsNHg0UUZ4bHBZTl9Gd2hXSDRGY3FxMDZqb3BiLWZrWjBJeGw4aFgyWVYxbEYtT0wxelVsTV8wTnpQOFJPcFkzdHhUelRPQXZhN09wTjJ6bDNqRV9vUG80OHFrRGVMdkFGZ09aeS1qb1JZRDI0VWJfV2llcUtScFlUOUx1MEFfM3lyUmRMeW15c2toRHZzSklRc0tXXzZjcC0zd0wzUmFqN214Q2pSbw?oc=5",
+     "source": "Free Press Journal",
+     "ts": 1795150610.0,
+     "score": -10.0
+    },
     {
      "title": "Kospi Falls Below 5,000 Mark, Nikkei 225 Drops Over 3%; SoftBank Plunges 14%, Kioxia Tumbles Over 10%, Samsung and SK Hynix Fall Over 4%",
      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNR2RmQ2hDMEd6Q1M1VmtmQXUxYm85V0dOenhiOENPZ2JUQk9jb3REaGFsNm5TdzYtampfVXFpdUowaVRlQnVraDF1eVY2OWNDZmNfZVU1dFROZUc2V2NpZFRSdkxGLXRRLUE3TTBRYTlZSlVDel9zalpQQU9NZi1Hb3Y4VzY0Y0lwRXZGNzdMT2htdnhPczJBY05qNjlSSkgtVUJjbUV3VmgwZGdGR1NJSnQyc1NsZmFIMUg4S1VFU1NOQ2lhd3A2OEMyVVE1RFZ6QlZybDZCRm5ZU1BKWXYyOEljSDVpdWNPV3Nz?oc=5",
@@ -734,40 +735,26 @@
      "score": -4.0
     },
     {
+     "title": "South Korea\u2019s Stock Market Falls 5.2% After US Chip Selloff",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZlY3cktOa2psQ1J2VXI5NjlmMnBFUUhqYmRiOEduV1RFRGhYNlZNLUFyb3J4blpMZ1pXeHVIY1ZRbllGdlMxbHp3bGZtYzF4MU1pNGRHWG1felVTMUVwd21haXNrN1Y2NkVybE9SSmVFQjlSbFhWdjYxMzRKcUdxS0ZOc3Y?oc=5",
+     "source": "JournalArta",
+     "ts": 1795205565.0,
+     "score": -3.0
+    },
+    {
      "title": "South Korea's KOSPI Plunges 5%; Retail Investors Bet approximately $1.1 Billion on Samsung Electronics, SK Hynix Dip",
      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51SUxfeWh6TVlFeU8xMFNwX1ZudzZCZzU5NU5mbjNxakxPcXJMbUFZc2ZlbzUzaDJmSmp1TGVDbzlwalA3LUNGWEpDX2JhNEJNUkJSUGYzekxrU3dweW9qTjQ0NW1KQS1UcTExNG9fTGoxeWd3Umc?oc=5",
      "source": "BigGo Finance",
      "ts": 1795166700.0,
      "score": -3.0
-    },
-    {
-     "title": "Asian Markets Today: Nikkei, Kospi Crash 4%. Why Couldn't Anthropic's 34% IPO Pop Revive The AI Trade?",
-     "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNWkhEUnFsX3ZENEVha29lWmJJc0JzUU41S3ZfSXMxZFdNSllKOEdOYlppRGJHTHJxTWpVQmpRdFBOX2FnM005ZUsxbXljeUFsT3dVSWZrODB2X2FBUkdDUUVGQlNvcmZrcjVSYkxFNHRNeDRSMnplSUNwMTdHUE9FQmdtdXl6Tk1rdmI3ZWZWaWJvdkpTNjc2MElrNUZSYUdhcVNtVF9rRFVLR3lzeVJWeVNUNTE1emh3ZTFyOVFlS3AyOW1WcTNsaFdnQVBzamZrdHhFVS1hM3VROFhQWnhDd1BSMVZuTnVQb1ZOOXZmZkFrQTdyaXBKaXc1dmM3dXFCYWJVOEhQOHNNZWh6YW01RVFhcjFxVEpjcTNnRFdtWdIBpwJBVV95cUxOaXMtYWFKaFJ1LWdfa25vQy14OVczRXYyQ1h1WGx3TzZsMHFmbmpzeUgxWldJZ01XWFRKMXNQTlJRWklVdFF2eUVBbkQ0ajNhdzFkZ1hVNTBuVXl5YzM4c2VSaWNCWnN0WE0tRmZfZEFTMnk4cWdWay1xb09mTUFQX3U0cFJrOTRBODkxVWdHcTVuVElvNDV0aS1tQkZETFF1d3dwOFJ3bmRHRERfNEN6NjZHN0Nla0RueVphUi0wbVlZOEVZZHJ5VW9Zbk1kcHMydFZ5andqVTRlaE5WZk11b3FMeDRoYjFTMHFvY0J1RV9YNks5MmVDSGhfQ1hrSE9iY2tDODB5cVRBVnJDbDlPdlZjTk4tT2VCWkNxOXpOX3ExNnE2WGt3?oc=5",
-     "source": "NDTV Profit",
-     "ts": 1795137185.0,
-     "score": -3.0
-    },
-    {
-     "title": "Nikkei slides 4.5% and KOSPI tumbles as Wall Street\u2019s AI reversal hits Asian chipmakers",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNX2JaelRwU01RTk52Wk5jcjV3eXdJYXZ5Qk5TRnB6RGZSLUswRTFhQXdzRmtRanc1SFI0cnFrVWRjUnlNUFRNUWlDQVU4S2c2NVpoa3dHZmFpcm5TTUt3ZUdScG1NeXpMaFVsZk5rcjhDMnBoeXdHNDZuVnk5MW04ZlplZk41NFZLaThmcmU5WFNwZ0RzZWdXbWlpaFFiS0tXYllTVVpQYzdpWUI1T252X0xoUF9QR3Uweml4ajRTVVNvRV94WnNxS1dycHpVdw?oc=5",
-     "source": "investingLive",
-     "ts": 1795135953.0,
-     "score": -3.0
     }
    ]
   },
   "gold": {
-   "sentiment": -0.974,
-   "count": 163,
+   "sentiment": -0.931,
+   "count": 165,
    "veto": true,
    "top": [
-    {
-     "title": "Gold Plunges More Than 7% in a Week; Spot Price Falls Below $3,600 as Silver Tumbles 13%",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QdlRxN05XdklYRUJXZTFCbVVWR2JSaUN4RkRwd0dOLXVJb0dmOVU0SjdjVWxTeEg2YXdHMWRGZzlzRGUtYlVybTRYSk9JejJpTklIV2ZaaGVaUllHNjdiTkRYNXhibmNYdHAzT2xCLW45eHJBblE?oc=5",
-     "source": "BigGo Finance",
-     "ts": 1795140673.0,
-     "score": -6.0
-    },
     {
      "title": "Gold Plunges Nearly 9% In Worst Week Since March. Fed Rate Fears And AI Selloff Deepen Losses.",
      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdGJvRnQ4MTdnYUlZcmVjZzI5V3JuZ3dFaHZtNVNwN214RVhBSzZqdHdaS3k1LWNwY01ZTzRKTkI2Q2FQQVkwZDRmMENSQ19fMGNlMFA2TDJkRlA0V2gxa0RjY0dxMGtNbzE2N2daZ2JBa3hfYTdDY2RwZWZqU0pibQ?oc=5",
@@ -783,13 +770,6 @@
      "score": -5.0
     },
     {
-     "title": "Gold plunges below $3,750, silver tumbles as hawkish Fed minutes pressure metals - Kitco PM Report",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQclJNeHVDcHRDMkU5SHdkUXJNNnFHZnZkb2dwS1dDeDN2UW5fOHhjeWxNbUh1M25uOVNLZFBrakVwVWgtUXdJcU9uV1VyVUhfYzNDek5zUTZCeWVLQ254SS10TjUyNmpyWFdydk5JNnlvUXJ5SWJSY1FSd3cxMkJ4WEYwYW9RUU5JcmlFMEFjZENFSXhMbWdKS0pkQkpuanJzeDQ2T1hlXzNXcDhMdzY3bVE5b3pQSUJaU3VvTg?oc=5",
-     "source": "Kitco",
-     "ts": 1795039355.0,
-     "score": -5.0
-    },
-    {
      "title": "Gold price drops almost 4% after renewed rate hike bets spark commodity sell-off",
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPS3MxNW5BR0V2TU5UYlVON1QzZ2xEVURIcEowWjlMdFNiQ3JlZDItUmxyMVA5VGdLRWx1WFhET2dlUUgtSEdWWUhkR0ppd2gtaHItSElMQjgyR3U5dEF5dTJQaGhxYkMyMlNhZVNjRnpIWFVxeEVtOVZueENfdVBzRlgwZHJlZjJkVGFwUnFzcE9IQQ?oc=5",
      "source": "Traders Union",
@@ -797,10 +777,24 @@
      "score": -4.0
     },
     {
-     "title": "Gold Sinks To One-Year Low, Silver Plunges Rs 2.46 lakh From Record High",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaEV3c3JCVEFmQnBxMk9jdVBPZ2F5dl9OcmxWaUdrMzFpLXh1QUF5OHpsNFBIc0RTNFBBTDEzTENMR2ZqcHZSdFA0cW1mUnpoLWxEeVV0eDJIOFlISzMtUmEydVlHTnZ1MVRLZDh1amhlRndOT1p3b2VGYXNoZlhlOThScHduQmh2d3ZnOTEwcEFHaXJfemhMU0RNVmsxZ1hXb2tDRk5FUzVxeU5RTTd4TDByRUhSZ9IBvgFBVV95cUxPY3hreTRZY2hQbW16YldnaG4zcmhydTVrZ2diSnBpUVRndlR5WFRhN2Y3SEplRzNjVU93ZHRMamRQZGtBRGZEQzRobmFEVXVoRndaZ0sxWVFOMzBYbXlXZThGNWNmdnhtWGpyRDhnZ0gwN3J1TFA2alRJR1BtLXJBSEpWSGNtT3lZV1hKQkl3R0hJNFQ4a24waGw4WnpYNjh3cjJWaFRpempUMVBzWEVjU185ZDltd0U2bEpTSWFB?oc=5",
-     "source": "NDTV",
-     "ts": 1795195029.0,
+     "title": "Bitcoin sell-off: Crypto is failing the 'digital gold' test again as it sinks with stocks",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE02OVNPeVBBRWFNM0RxSndNZ2NPQnE3amxmMEpmenlKMm9COUdneHlXbUNTaXFwdjVsQnFQbGg1dTctVXZ0cDd4VTZTY1ZWYThiMFZrTGtuY0hSSWlNS1B2b1FlUFJENkZkQzkzTzZGdzFMUXlxTmhr0gF8QVVfeXFMTkVKRDJKTmVUSkU3SW1TejV5aUFtVzA1N0JKSkY0NWNDZmprbnBycGJJOXg0SzV1UjBoNWM4RWwxUDZ6OHV1X0tfY0VMbzlIMmZlVnZLcjdYeUNTWjg1UWxZOW0xTTNHZ25GejJ0SmRIQ1pGREtjbDVKUUJ3Ng?oc=5",
+     "source": "CNBC",
+     "ts": 1795187005.0,
+     "score": -4.0
+    },
+    {
+     "title": "Gold Price Crash Tests $3,500 as Fed Hike Bets Reach 97%",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNai1xTjlyLWg2SWZCQWtLREdtWm1YMmVzUXRNSzctU3VubVJXRGxnN2ZiSFRCUWpiZUFPUmxUZXpoYmh1aDZLUjFPTUYtdVVuVFh6TjJrY2I1a2UwUkcxNzZQWTV5T245bm9uRXEwR2lTVTVnbmtBMFdsYmVDcU1XQmttdVlVbm5vaEgwNFZSamhjZTZBNU5oTWpkbFNEQQ?oc=5",
+     "source": "Investing.com UK",
+     "ts": 1795202760.0,
+     "score": -3.0
+    },
+    {
+     "title": "'Everything Crash' Sees Gold Price Extend Longest Slump Since 1970",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQY0Qwdm5RRlNVeVhxUnY5aHFwQWxTT1A2MzhzanZidl9Ed29NeU1YLVpIYl9oLWhXUGxGRFFZekFucEhZVC1qVzFpM3JWYjNsck5BaEZ5MFBLdmJXSnZjN1J6LWw0S1E2QjQzYk1pbDRXelJhVnNTU3NtSVZadHN3a1Y1cGE1VzQ3RW5hRzRHaTU?oc=5",
+     "source": "BullionVault",
+     "ts": 1795196055.0,
      "score": -3.0
     }
    ]
@@ -1344,9 +1338,34 @@
    "drawdown_pct": "-0.487",
    "benchmark": "6499.68",
    "open_positions": "1"
+  },
+  {
+   "time": "2026-11-21T01:26:34Z",
+   "equity": "10096.14",
+   "cash": "10096.14",
+   "exposure": "0.0",
+   "drawdown_pct": "-1.142",
+   "benchmark": "6525.53",
+   "open_positions": "0"
   }
  ],
  "trades": [
+  {
+   "trade_id": "T00007",
+   "symbol": "SOXSB",
+   "entry_time": "2026-11-19T21:26:11Z",
+   "entry_price": "63.901934999999995",
+   "exit_time": "2026-11-20T22:26:00Z",
+   "exit_price": "76.53097794096426",
+   "qty": "14.28",
+   "fees": "2.005382",
+   "pnl": "178.337351",
+   "pnl_pct": "19.543",
+   "r_multiple": "1.798",
+   "hold_hours": "25.0",
+   "entry_score": "83.7",
+   "exit_reason": "Trailing stop"
+  },
   {
    "trade_id": "T00006",
    "symbol": "SOXSB",
@@ -1445,6 +1464,30 @@
   }
  ],
  "ledger": [
+  {
+   "seq": "29",
+   "time": "2026-11-20T22:26:00Z",
+   "type": "FEE",
+   "symbol": "SOXSB",
+   "qty": "0",
+   "price": "0",
+   "amount": "-1.09286236",
+   "cash_after": "10096.13599908",
+   "trade_id": "T00007",
+   "note": "Exit fee"
+  },
+  {
+   "seq": "28",
+   "time": "2026-11-20T22:26:00Z",
+   "type": "SELL",
+   "symbol": "SOXSB",
+   "qty": "14.28",
+   "price": "76.53097794096426",
+   "amount": "1092.862365",
+   "cash_after": "10097.22886144",
+   "trade_id": "T00007",
+   "note": "Trailing stop"
+  },
   {
    "seq": "27",
    "time": "2026-11-19T21:26:11Z",
@@ -1770,5 +1813,5 @@
    "note": "Starting paper balance"
   }
  ],
- "ledger_rows": 27
+ "ledger_rows": 29
 }
