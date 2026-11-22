@@ -1,18 +1,10 @@
 [
  {
-  "title": "Fed Chairman Warsh Speaks",
-  "ts": 1794848400.0
+  "title": "Core PCE Price Index m/m",
+  "ts": 1795613400.0
  },
  {
-  "title": "Core Retail Sales m/m",
-  "ts": 1794922200.0
- },
- {
-  "title": "Retail Sales m/m",
-  "ts": 1794922200.0
- },
- {
-  "title": "FOMC Meeting Minutes",
-  "ts": 1795028400.0
+  "title": "Prelim GDP q/q",
+  "ts": 1795613400.0
  }
 ]
